@@ -1,0 +1,89 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+ 
+.mamah {
+    color: navy;
+}
+
+.header {
+    position: fixed;
+    background-color: transparent;
+    top: 0%;
+    right: 0%;
+    width: 100%;
+    padding: 25px 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100%;
+}
+
+.navbar a {
+    color: white;
+    position: relative;
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 17px;
+}
+
+.navbar a::after {
+
+}
+
+
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 75%;
+    height: 500px;
+    transform: translate(-50%, -50%);
+    background: url(bcgd/bgtheherta.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    margin-top: 30px;
+    
+}
+
+.wrapper {
+    color: black;
+    font-weight: bold;
+    display: flex;
+    text-align: center;
+    
+   
+    
+}
+
+
+.imgmain {
+    padding-top: 50px;
+    display: block;
+    width: 90%;
+    margin: auto;
+    height: 70%;
+    
+    
+}
+
+.card  {
+    
+
+    
+}
+
